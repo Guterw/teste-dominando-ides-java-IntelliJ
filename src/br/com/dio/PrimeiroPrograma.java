@@ -3,12 +3,17 @@ package br.com.dio;
 import br.com.dio.model.Gatun;
 
 public class PrimeiroPrograma {
+    private static String nome;
+
     public static void main(String[] args) {
         Gatun gato = new Gatun();
         System.out.println(gato);
 
-        Livro livro1 = new Livro( nome: "A Arte da Guerra", numPaginas: 300);
-        System.out.println(livro1);
+        int numPaginas;
+   ;
+        int i = 300;
+        Livro livro = new Livro( nome = "A Arte da Guerra", numPaginas = 300) ;
+        System.out.println(livro);
         /*int a = 5;
         int b = 6;
         System.out.println("Hello World dnvo! " + (a+b));*/
